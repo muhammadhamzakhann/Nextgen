@@ -40,7 +40,7 @@ jobs:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_RELEASE_WEBHOOK }}
       with:
         args: |
-          [{{ EVENT_PAYLOAD.repository.full_name }}](https://github.com/YeonV/Vitron/releases/latest)
+          [{{ EVENT_PAYLOAD.repository.full_name }}](https://github.com/muhammadhamzakhann/Nextgen/releases/latest)
           ${{ env.MESSAGES }}
           
   web:
